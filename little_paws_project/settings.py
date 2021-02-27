@@ -83,14 +83,17 @@ WSGI_APPLICATION = 'little_paws_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'little_paws',
-        'USER':'postgres',
-        'PASSWORD': 1234 ,
-        'HOST':'localhost'
+        'NAME': 'd2h8oru3boub8m',
+        'USER':'ctofrzeywcdpui',
+        'PASSWORD':'97383696ccc7891209a5a7d3d67e2ae4130ea54f538e53519963351c57bd7464' ,
+        'HOST':'ec2-34-239-33-57.compute-1.amazonaws.com',
+        'PORT':5432
     }
 }
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+#DATABASE_URL='postgres://ctofrzeywcdpui:97383696ccc7891209a5a7d3d67e2ae4130ea54f538e53519963351c57bd7464@ec2-34-239-33-57.compute-1.amazonaws.com:5432/d2h8oru3boub8m'
+
+#db_from_env = dj_database_url.config(conn_max_age=600)
+#DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
