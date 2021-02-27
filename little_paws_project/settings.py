@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'is@9@ix-!y9u(ri$eyampt&r&un5=6@xto*ex&=pqoe*@7+9yj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'littlepawsdjangoproject.herokuapp.com']
 
